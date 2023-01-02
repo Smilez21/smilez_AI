@@ -85,10 +85,10 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
-    
+
 // Connecting both side 
 
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://smilez-ai.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
